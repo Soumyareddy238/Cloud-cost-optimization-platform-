@@ -1,61 +1,56 @@
-# Cloud-cost-optimization-platform-
-## Description 
-Cloud cost optimization platform - A python and Flask based web application that analyzes cloud usage datasets to detect high cloud bills, identify inefficient resource utilization,and provide insights for optimizing cloud infrastructure costs.
-## Features 
-- Upload cloud usage dataset
-- Identify high cloud bills
-- Analyze resource usage
-- provide cost optimization insight
-## Technologies used
-- python
+# Cloud Cost Optimization Platform
+
+## Description
+The Cloud Cost Optimization Platform is a web application developed using Python and Flask.  
+It analyzes cloud usage datasets to detect high cloud bills, identify inefficient resource utilization, and provide actionable insights for cost optimization.
+
+---
+
+## Features
+- Upload cloud usage dataset in CSV format
+- Detect high cloud bills
+- Analyze resource usage for inefficiencies
+- Provide recommendations for optimizing cloud costs
+
+---
+
+## Technologies Used
+- Python
 - Flask
-- HTML
-- CSS
-- CSV Dataset
+- HTML, CSS
+- CSV datasets
+
+---
+
 ## Project Screenshots
 
 ### Home Page
-This is the landing page of the Cloud Cost Optimization Platform.  
-Users can navigate to upload their cloud usage datasets or view other sections of the platform.
+Landing page of the platform. Users can navigate to upload datasets and view analysis features.
 
 ![Home Page](Home_page.png)
 
----
-
 ### Upload Page
-This page allows users to upload their CSV cloud usage dataset.  
-The system reads the file and prepares it for analysis to identify high cloud bills and inefficient resource usage.
+Allows users to upload CSV cloud usage datasets. The system prepares the data for analysis.
 
 ![Upload Page](upload_page.png)
 
----
-
 ### Dashboard Page
-After uploading the dataset, this page provides an overview of cloud costs, highlighting total usage and potential savings.  
-It gives a quick visual summary of the dataset analysis.
+Displays an overview of cloud costs, showing total usage and potential savings.
 
 ![Dashboard Page](Dashboard_page.png)
 
----
-
 ### Result Page
-This page displays detailed cloud cost analysis.  
-It identifies resources with high expenses and provides insights for cost optimization.
+Detailed analysis of cloud costs, highlighting high-cost resources and inefficiencies.
 
 ![Result Page](Result_page.png)
 
----
-
 ### Report Page
-Users can view the generated report summarizing cloud cost issues and recommendations for optimization.  
-This is useful for saving or sharing analysis results.
+Shows a generated report summarizing cloud cost issues and recommendations.
 
 ![Report Page](Report_page.png)
 
----
-
 ### Conclusion Page
-Shows final observations and insights from the dataset analysis, summarizing the key findings of the cloud cost optimization.
+Provides final observations and insights from the analysis, summarizing key findings.
 
 ![Conclusion Page](conclusion_page.png)
 
@@ -66,6 +61,14 @@ pip install flask pandas
 3.Run the application:
 python app.py
 http://127.0.0.1:5000/
+## Future Improvements
+Integrate a Machine Learning model to predict future cloud costs
+Connect to real cloud APIs (AWS, GCP) for live analysis
+Add user authentication and personalized dashboards
+Visual charts for resource usage and cost optimization
+Export detailed analysis as PDF reports
+Add notifications for high cloud bill alerts
+
 ## Author 
 Soumya Reddy 
 B.Tech Computer Science Engineering 
