@@ -1,10 +1,9 @@
 # ☁️ Cloud Cost Optimization Platform
-
-The Cloud Cost Optimization Platform is a Python Flask-based web application designed to analyze cloud usage datasets, detect high costs, and provide actionable optimization insights.
-
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Flask](https://img.shields.io/badge/Flask-WebApp-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+The Cloud Cost Optimization Platform is a Python Flask-based web application designed to analyze cloud usage datasets, detect high costs, and provide actionable optimization insights.
 
 ## 📌 Description
 The Cloud Cost Optimization Platform is a web application developed using Python and Flask.  
