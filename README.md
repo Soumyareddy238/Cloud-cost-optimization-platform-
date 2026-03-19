@@ -1,4 +1,7 @@
 # ☁️ Cloud Cost Optimization Platform
+
+A Flask-based web application for analyzing cloud usage and optimizing costs through data-driven insights.
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Flask](https://img.shields.io/badge/Flask-WebApp-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
