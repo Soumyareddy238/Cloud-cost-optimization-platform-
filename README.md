@@ -1,4 +1,3 @@
-
 # ☁️ Cloud Cost Optimization Platform
 
 ## 📌 Description
@@ -28,7 +27,7 @@ It analyzes cloud usage datasets to detect high cloud bills, identify inefficien
 
 1. User uploads cloud usage dataset (CSV)  
 2. Flask backend processes the data  
-3. Data analysis performed using Python libraries  
+3. Data analysis and cost evaluation performed using Python libraries  
 4. High-cost resources identified  
 5. Optimization recommendations generated  
 6. Results displayed on dashboard  
@@ -110,11 +109,16 @@ User → Flask Backend → Data Analysis → Insights & Recommendations → Outp
 1. Install Python  
 
 2. Install dependencies:
+
 ```bash
 pip install flask pandas numpy
-3.Run the application:
+
+Run the application:
+
 python app.py
-4.Open in browser:
+
+Open in browser:
+
 http://127.0.0.1:5000/
 
 🔮 Future Improvements
@@ -132,6 +136,4 @@ Generate downloadable reports (PDF)
 👨‍💻 Author
 
 Soumya Reddy
-B.Tech Computer Science Engineering 
-
----
+B.Tech Computer Science Engineering
