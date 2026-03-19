@@ -61,6 +61,14 @@ User → Flask Backend → Data Analysis → Insights & Recommendations → Outp
 
 ---
 
+## 📈 Key Insights
+
+- Certain services contribute disproportionately to total cost  
+- Idle resources significantly increase cloud expenditure  
+- Optimization strategies can reduce overall cloud spending  
+
+---
+
 ## ⚠️ Limitations
 
 - Depends on the quality of input dataset  
@@ -104,14 +112,11 @@ User → Flask Backend → Data Analysis → Insights & Recommendations → Outp
 2. Install dependencies:
 ```bash
 pip install flask pandas numpy
-
-Run the application:
-
+3.Run the application:
 python app.py
-
-Open in browser:
-
+4.Open in browser:
 http://127.0.0.1:5000/
+
 🔮 Future Improvements
 
 Integrate Machine Learning for cost prediction
