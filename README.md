@@ -109,8 +109,6 @@ User → Flask Backend → Data Analysis → Insights & Recommendations → Outp
 1. Install Python  
 
 2. Install dependencies:
-
-```bash
 pip install flask pandas numpy
 
 Run the application:
